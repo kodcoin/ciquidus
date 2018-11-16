@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "CIQUIDUS",
+  "title": "KOdcoin Block Explorer",
 
   "address": "127.0.0.1:3001",
 
   // coin name
-  "coin": "Chaincoin",
+  "coin": "KODCOIN",
 
   // coin symbol
-  "symbol": "CHC",
+  "symbol": "KOD",
 
   // logo
   "logo": "/images/chain_dark-128x128.png",
@@ -78,7 +78,7 @@
   // index page (valid options for difficulty are POW, POS or Hybrid)
   "index": {
     "show_hashrate": true,
-    "difficulty": "POW",
+    "difficulty": "POS",
     "last_txs": 100
   },
 
@@ -94,7 +94,7 @@
   //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex, coinexchange
   //default market is loaded by default and determines last price in header
   "markets": {
-    "coin": "CHC",
+    "coin": "KODCOIN",
     "exchange": "BTC",
     "enabled": ["cryptopia"],
     "cryptopia_id": "2186",
